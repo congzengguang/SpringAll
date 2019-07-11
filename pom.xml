@@ -12,8 +12,75 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>00.Spring-Add-Models</module>
     <module>01.Start-Spring-Boot</module>
     <module>02.Spring-Boot-Config</module>
+    <module>03.Spring-Boot-MyBatis</module>
+    <module>04.Spring-Boot-JdbcTemplate</module>
+    <module>05.Spring-Boot-MyBatis-MultiDataSource</module>
+    <module>06.Spring-Boot-JdbcTemplate-MultiDataSource</module>
+    <module>07.Spring-Boot-AOP-Log</module>
+    <module>08.Spring-Boot-Thymeleaf</module>
+    <module>09.Spring-Boot-Redis-Cache</module>
+    <module>10.Spring-Boot-Ehcache-Cache</module>
+    <module>11.Spring-Boot-Shiro-Authentication</module>
+    <module>12.Spring-Boot-Shiro-RememberMe</module>
+    <module>13.Spring-Boot-Shiro-Authorization</module>
+    <module>14.Spring-Boot-Shiro-Redis</module>
+    <module>15.Spring-Boot-Shiro-Ehcache</module>
+    <module>16.Spring-Boot-Shiro-Thymeleaf-Tag</module>
+    <module>17.Spring-Boot-Shiro-Session</module>
+    <module>18.Spring-Boot-Jackson</module>
+    <module>19.Spring-Boot-Testing</module>
+    <module>20.Spring-Boot-Swagger2</module>
+    <module>21.Spring-Boot-Actuator</module>
+    <module>22.Spring-Boot-Email</module>
+    <module>23.Spring-Boot-Admin</module>
+    <module>24.Spring-Boot-Devtools</module>
+    <module>25.Spring-Boot-Exception</module>
+    <module>26.Spring-Boot-Filter-Interceptor</module>
+    <module>27.Spring-Boot-Mapper-PageHelper</module>
+    <module>28.Spring-Cloud-Eureka-Server-Discovery</module>
+    <module>29.Spring-Cloud-Ribbon-LoadBalance</module>
+    <module>30.Spring-Cloud-Hystrix-Circuit-Breaker</module>
+    <module>31.Spring-Cloud-Hystrix-Dashboard-Turbine</module>
+    <module>32.Spring-Cloud-Hystrix-Dashboard-Turbine-RabbitMQ</module>
+    <module>33.Spring-Cloud-Feign-Declarative-REST-Client</module>
+    <module>34.Start-Spring-Security</module>
+    <module>35.Spring-Security-Authentication</module>
+    <module>36.Spring-Security-ValidateCode</module>
+    <module>37.Spring-Security-RememberMe</module>
+    <module>38.Spring-Security-SmsCode</module>
+    <module>39.Spring-Cloud-Zuul-Router</module>
+    <module>40.Spring-Boot-Dubbo-Zookeeper</module>
+    <module>41.Spring-Cloud-Config</module>
+    <module>42.Spring-Cloud-Bus</module>
+    <module>43.Spring-Cloud-Sleuth</module>
+    <module>44.Spring-Boot-Autoconfiguration</module>
+    <module>45.Spring-Boot-SpringApplication</module>
+    <module>46.Spring-Boot-Hibernate-Validator</module>
+    <module>47.Spring-Boot-Content-Negotiation</module>
+    <module>48.Spring-Boot-CORS-Support</module>
+    <module>49.Spring-Boot-Async</module>
+    <module>50.Spring-Regist-Bean</module>
+    <module>51.Spring-Bean-Lifecycle</module>
+    <module>52.Dubbo-OPS-Mointor</module>
+    <module>53.Dubbo-High-Availability</module>
+    <module>54.Spring-Boot-Kafka</module>
+    <module>55.Spring-Cloud-Consul</module>
+    <module>56.Spring-Boot-MongoDB-crud</module>
+    <module>57.Spring-Boot-WebFlux</module>
+    <module>58.Spring-Boot-WebFlux-crud</module>
+    <module>59.Spring-Security-SessionManager</module>
+    <module>60.Spring-Security-Logout</module>
+    <module>61.Spring-security-Permission</module>
+    <module>62.Spring-Boot-Shiro-JWT</module>
+    <module>63.Spring-Security-OAuth2-Guide</module>
+    <module>64.Spring-Security-OAuth2-Customize</module>
+    <module>65.Spring-Security-OAuth2-Config</module>
+    <module>66.Spring-Security-OAuth2-SSO</module>
+
+
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
