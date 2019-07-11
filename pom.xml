@@ -85,7 +85,7 @@
     <module>63.Spring-Security-OAuth2-Guide</module>
     <module>64.Spring-Security-OAuth2-Customize</module>
     <module>65.Spring-Security-OAuth2-Config</module>
-    <!--<module>66.Spring-Security-OAuth2-SSO</module>-->
+    <module>66.Spring-Security-OAuth2-SSO</module>
 
 
   </modules>
