@@ -9,8 +9,10 @@
     <artifactId>spring-all</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
+
   <artifactId>28.Spring-Cloud-Eureka-Server-Discovery</artifactId>
   <name>28.Spring-Cloud-Eureka-Server-Discovery</name>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>

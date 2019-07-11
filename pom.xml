@@ -4,6 +4,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.5.13.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
   <groupId>com.spring.all</groupId>
   <artifactId>spring-all</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -41,21 +48,23 @@
     <module>26.Spring-Boot-Filter-Interceptor</module>
     <module>27.Spring-Boot-Mapper-PageHelper</module>
     <module>28.Spring-Cloud-Eureka-Server-Discovery</module>
-    <module>29.Spring-Cloud-Ribbon-LoadBalance</module>
+    <!--
+     <module>29.Spring-Cloud-Ribbon-LoadBalance</module>
     <module>30.Spring-Cloud-Hystrix-Circuit-Breaker</module>
     <module>31.Spring-Cloud-Hystrix-Dashboard-Turbine</module>
     <module>32.Spring-Cloud-Hystrix-Dashboard-Turbine-RabbitMQ</module>
     <module>33.Spring-Cloud-Feign-Declarative-REST-Client</module>
+     -->
     <module>34.Start-Spring-Security</module>
     <module>35.Spring-Security-Authentication</module>
     <module>36.Spring-Security-ValidateCode</module>
     <module>37.Spring-Security-RememberMe</module>
     <module>38.Spring-Security-SmsCode</module>
-    <module>39.Spring-Cloud-Zuul-Router</module>
+    <!--<module>39.Spring-Cloud-Zuul-Router</module>-->
     <module>40.Spring-Boot-Dubbo-Zookeeper</module>
-    <module>41.Spring-Cloud-Config</module>
+    <!--<module>41.Spring-Cloud-Config</module>
     <module>42.Spring-Cloud-Bus</module>
-    <module>43.Spring-Cloud-Sleuth</module>
+    <module>43.Spring-Cloud-Sleuth</module>-->
     <module>44.Spring-Boot-Autoconfiguration</module>
     <module>45.Spring-Boot-SpringApplication</module>
     <module>46.Spring-Boot-Hibernate-Validator</module>
@@ -64,12 +73,12 @@
     <module>49.Spring-Boot-Async</module>
     <module>50.Spring-Regist-Bean</module>
     <module>51.Spring-Bean-Lifecycle</module>
-    <module>52.Dubbo-OPS-Mointor</module>
+    <!--<module>52.Dubbo-OPS-Mointor</module>-->
     <module>53.Dubbo-High-Availability</module>
     <module>54.Spring-Boot-Kafka</module>
-    <module>55.Spring-Cloud-Consul</module>
+    <!--<module>55.Spring-Cloud-Consul</module>-->
     <module>56.Spring-Boot-MongoDB-crud</module>
-    <module>57.Spring-Boot-WebFlux</module>
+    <!--<module>57.Spring-Boot-WebFlux</module>-->
     <module>58.Spring-Boot-WebFlux-crud</module>
     <module>59.Spring-Security-SessionManager</module>
     <module>60.Spring-Security-Logout</module>
@@ -78,7 +87,7 @@
     <module>63.Spring-Security-OAuth2-Guide</module>
     <module>64.Spring-Security-OAuth2-Customize</module>
     <module>65.Spring-Security-OAuth2-Config</module>
-    <module>66.Spring-Security-OAuth2-SSO</module>
+    <!--<module>66.Spring-Security-OAuth2-SSO</module>-->
 
 
   </modules>
